@@ -1,0 +1,46 @@
+.hero {; 
+        color: #4a148c;
+      text-align: center;}
+
+    .intro {color:#4B515D;text-align: center;padding: 20px}  
+    hr {color: #ab47bc;}
+
+    .card-text ,.card-title,h2{ color:#4B515D }
+    
+    @media screen and (min-width: 601px) {
+        .nh1 {font-size: 7vw;}
+        .nh6{font-size: 2vw;}
+        .intro {font-size: 25px;}
+    }
+
+    @media screen and (max-width: 600px) {
+        .nh1 {font-size: 12vw;
+            padding-top: 20px;}
+        .nh6 {font-size: 5vw;}
+        .intro {font-size: 20px;}
+        }
+
+    .card {display: inline-block;
+          margin: 20px;} 
+
+      .nh2 {padding-left: 20px;
+            padding-top: 10px;
+            text-align: left;
+            color: #5e35b1;}
+              
+     footer { border-top: dashed;
+        border-color: #b39ddb;
+        border-top-width: thin;
+        margin-top: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        
+         }
+      .nav-item {color: #b39ddb;
+            padding-right: 10px;
+          }  
+
+      .borderd {border-top: dashed;
+      border-color: #d1c4e9;
+        border-top-width: thin;
+        padding: 30px;}              
